@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+           <head>
+           
+           <meta charset="UTF-8">
+           <title>Services</title>
+           <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet" type="text/css">
+           <link rel="stylesheet" type="text/css" href="external.css"/>
+           <style type="text/css">
+               
+               h2 {color: green}
+               p {color: blue}
+               div.transbox {
+                    margin: 20px;
+                    background-color: #ffffff;
+                    border: 1px solid black;
+                    opacity: 0.8;
+	
+}
+           img {border: 3px solid black;}
+           
+           </style>
+           <!--[if it IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+           <!--[if lte IE 9]> 
+	    <script src="http://css3-mediaqueries-	js.googlecode.com/svn/trunk/css3-	mediaqueries.js"></script> 
+        <![endif]-->
+           </head>
+           
+      <body>
+                 <p id="clock"></p>
+
+                 <script>
+                    var d = new Date();
+                    document.getElementById("clock").innerHTML = d.toUTCString();
+                    document.getElementById("clock").style.color = "#A8FFFB";
+                    document.getElementById("clock").style.fontFamily = 'Baloo Bhaina', cursive;
+                 </script>
+                 
+                 <script>
+                    var vid = document.getElementById("myVideos");
+                    
+                    function enableControls() {
+                        vid.controls = true;
+                        vid.load();
+                    }    
+                        
+                    function disableControls() {   
+                        vid.controls = false;
+                        vid.load();
+                    }     
+                          
+                 </script>
+      
+           
+                <h1><b>Services</b></h1>
+           
+                <ul>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/index.html"> Home</a></li>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/page2.html"> Timetables</a></li>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/page3.html"> Services</a></li>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/page4.html"> About Us</a></li>
+                </ul>
+        <div style="text-align: center">
+        <div class="transbox">   
+        <h2><b>TVM's</b></h2>
+        <p>Bus Aras has four Ticket Vending Machines, or TVM's, on the main concourse of the station. <br/>
+           The TVM's are a quick and easy way to purchase your ticket when the Booking Office is closed.<br/>
+           Simply select your destination on the home screen or type in where you want to go, choose from <br/>
+           Adult, Student, Child or Family, Select your ticket type and insert your cash or card. Below<br/>
+           is a quick guide of how to purchase a ticket at one of our TVM's.</p>
+       </div>
+       </div>
+           
+           
+           
+           
+        <div style="text-align:center">
+                <button onclick="enableControls()" type="button">Enable controls</button>
+                <button onclick="disableControls()" type="button">Disable controls</button>
+        </div>  
+           
+        <div style="text-align:center">
+                <video id="myVideos" width="520" height="440" controls muted> 
+				    <source src="20161012_141612.mp4" type="video/mp4">
+					<source src="20161012_141612.ogg" type="video/ogg">
+				</video>	
+				
+        </div>  
+         
+         <div style="text-align:center">
+         <div class="transbox">
+         <h2><b>Left Luggage Lockers</b></h2>
+         <p>Bus Aras offers an automated left luggage locker service. Prices are €6.00 for a small locker<br/>
+         €8.00 for a medium locker and €10.00 for a large locker. Simply, close the door to your chosen locker<br/>
+         insert the correct amount of coins for your chosen locker and take the printed ticket. When you want <br/>
+         to collect your luggage, insert the ticket and and your locker will open. The short video below will <br/>
+         demonstrate.</p>
+         </div>
+         </div>
+           
+        <div style="text-align:center">
+                <video width="520" height="440" controls muted>
+                    <source src="20161101_090726.mp4" type="video/mp4">
+                </video>
+        </div>               
+        
+        <div style="text-align:center">
+        <div class="transbox">
+        <h2><b>Bus Eireann's ISOFIX</b></h2>
+        <p>Bus Éireann is providing ISOFIX Attachment Points at selected seats on 53 of the company’s new Expressway<br/> 
+        and commuter coaches. This will allow child safety seats that are ISOFIX compatible to be installed on vehicles<br/> 
+        by parents/guardians making it easier for families to travel with small children. Non-ISOFIX child seats can also<br/> 
+        be used on any coach seat as long as they are secured with the seatbelt according to the child seat manufacturer’s<br/>
+        instructions. A total of 88 new vehicles went into service in 2012. All are Wi-Fi enabled, wheelchair accessible and<br/> 
+        meet the highest EU emission standards. Selected window seats on 53 of these new vehicles have ISOFIX fitted. ISOFIX<br/> 
+        attachment points are available for families travelling from Dublin-Galway, Dublin-Limerick, Dublin-Wexford, Dublin-Cork,<br/> 
+        Dublin-Belfast and selected commuter services around the Greater Dublin Area. Customers travelling on our services should<br/> 
+        look out for the ISOFIX sticker allocated on the window of 53 of our coaches.</p>
+        </div>
+        </div>
+        <div style="text-align: center">
+        <img src="BE_ISOFIX.png" alt="ISOFIX" style="width: 350px; height: 400px"/>
+        <!--img and press release text supplied by BE media dept.-->
+        </div>
+        
+        <div style="text-align:center">
+        <div class="transbox">
+        <h2><b>Leap Card</b></h2>
+        <p>Leap Card is available to use on Bus Éireann’s services in the Greater Dublin Area offering customers a cheaper, flexible<br/> 
+           and more convenient way to travel on these services and other Leap enabled public transport services.  Leap cards can be<br/>
+           used on Bus Éireann commuter services in the Greater Dublin Area. Simply buy your Leap Card, top it up with travel credit<br/> 
+           or purchase a 1 day or 7 days ticket and away you go!</p>
+        <p><b>Adult Leap Card</b><br/>
+           The Adult Leap Card can be used by a person of any age, although adult fares will be applied, so it is advised that children<br/> 
+           get a Child Leap Card. A €5 fully refundable deposit is charged for Adult Leap Cards. When buying your Leap Card you must also<br/> 
+           top it up with a minimum of €5 Travel Credit.</p>
+        <p><b>Adult Personalised Leap Card</b><br/>
+           Adult personalised Leap Cards have your name and photograph printed on the face of the card. They work in the same way as regular adult<br/> 
+           Leap Cards. In the future, once monthly and annual tickets are available on Leap Cards you’ll be able to load these tickets on your Adult<br/> 
+           Personalised card. A €5 fully refundable deposit is charged for Adult Personalised Leap Cards. When buying your Adult Personalised Leap<br/> 
+           Card you must also top it up with a minimum of €5 Travel Credit.</p>
+           <br/>
+        <p><b>Child Leap Fares</b><br/>
+           Children under sixteen years of age, who are in possession of a non-personalised Child Leap Card 4 -15 Years and children under nineteen years of age,<br/> 
+           who are in possession of a Personalised Child Leap Card 16 – 18 Years, may avail of Leap child fares where available on designated Leap-enabled services.</p> 
+           <br/>
+        <p><b>Schoolchild Leap Fare</b><br/>
+           Children under sixteen years of age, who are in possession of a non-personalised Child Leap Card 4 -15 Years and children under nineteen years of age, who are in<br/> 
+           possession of a Personalised Child Leap Card 16 – 18 Years, may avail of the Schoolchild Leap single fare on city services during the specified school term hours.</p>
+           <br/>
+        <p><b>Student Leap Fares</b><br/>
+           Leap Single, 24 Hour Rolling and 7 Day Rolling products are issued at discounted student Leap fares, where available on Leap-enabled services, to students aged<br/> 
+           nineteen years and above who are in possession of a valid Leap Student Travelcard. Students aged under nineteen years, who are in possession of a Personalised <br/>
+           Child Leap card 16-18 Years, may avail of discounted Child Leap fares.</p>
+        </div>
+        </div>
+        
+        <div style="text-align: center">
+           <img src="leap.jpg" alt="leap card image"/><br/> 
+        </div>
+        <div style="text-align: center">   
+           <img src="leap_routes.png" alt="leap routes image"/>
+           <!--imgs and leap details supplied by BE media dept.-->
+        </div>   
+           
+        <div style="text-align: center">
+           <img src="expfoot.png" alt="footer"/><!--img supplied by BE media dept.-->
+        </div>
+        
+        
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+       </body>    
+</html>

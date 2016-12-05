@@ -1,0 +1,55 @@
+body {background-color: #ECF0F1;}
+h1 {text-align: center; color: green; 
+    font-family: 'Baloo Bhaina', cursive;
+    }
+
+ul {list-style-type: none; margin: 0; padding: 0; Background-color: #F0F3F4;
+                   overflow: hidden;
+                   font-family: 'Baloo Bhaina', cursive;}
+               li {float: left;}
+               li a {display: block; text-align: center; padding: 14px 16px; color: green;} 
+               li a:hover {background-color: #E67E22;}
+               
+               
+body {background-image: url("busarasent1.jpg"); width="1000px" height="561px";
+			    background-repeat: no-repeat;
+                background-position: top center;
+                background-attachment: fixed;
+                }
+				h2 {text-align: center;
+				    color: green;
+				    font-family: 'Baloo Bhaina', cursive;}
+				p {text-align: center;
+				    color: blue}				
+				    
+				    
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 65%;
+	}
+	
+}
+
+/* for 700px or less */
+@media screen and (max-width: 700px) {
+	#content {
+		width: auto;
+		float: none;
+	}
+	
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+	#header {
+		height: auto;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	
+}

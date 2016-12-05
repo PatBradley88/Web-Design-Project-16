@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+           <head>
+           <!--[if it IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta charset="UTF-8">
+           <!--[if lte IE 9]> 
+	    <script src="http://css3-mediaqueries-	js.googlecode.com/svn/trunk/css3-	mediaqueries.js"></script> 
+        <![endif]-->  
+           
+              <style type="text/css">
+                  .button {
+                     background-color: #4CAF50; /* Green */
+                     border: 2px;
+                     color: white;
+                     padding: 26px 42px;
+                     text-align: left;
+                     text-decoration: none;
+                     display: inline-block;
+                     font-size: 16px;
+                     margin: 4px 2px;
+                    
+                     transition-duration: 0.6s;
+                     cursor: pointer;
+                    }
+                .button {
+                     background-color: red;
+                     color: white;
+                     border: 2px solid orange;
+                        }
+                        
+                .button:hover{ 
+                     background-color: white;
+                     color: black;
+                      }       
+                div.transbox {
+                    margin: 30px;
+                    background-color: #ffffff;
+                    border: 1px solid black;
+                    opacity: 0.8;
+                    }
+                 img {border: 3px solid black;}
+                 #img3 {float: right;}
+                 .table { margin-left: 175px;}
+                         
+              </style>
+              
+              <title>Timetables</title>
+              <link rel="stylesheet" href="external.css" type="text/css"/>
+           <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina" rel="stylesheet" type="text/css">
+           </head>
+        
+        <body onload="myFunction()">
+                 <p id="clock"></p>
+                 <script>
+                     function myFunction() {
+                     alert("To purchase tickets visit www.buseireann.ie");
+                 }
+                 </script>
+                 <script>
+                    var d = new Date();
+                    document.getElementById("clock").innerHTML = d.toUTCString();
+                    document.getElementById("clock").style.color = "#A8FFFB";
+                    document.getElementById("clock").style.fontFamily = 'Baloo Bhaina', cursive;
+                 </script>
+           
+           
+           
+                <h1><b>Timetables</b></h1>
+           
+                <ul>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/index.html"> Home</a></li>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/page2.html"> Timetables</a></li>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/page3.html"> Services</a></li>
+                   <li><a href="file:///Users/patrickbradley/Desktop/Web%20Design%20CA1/page4.html"> About Us</a></li>
+                </ul>
+           
+               <br/>
+           <div>    
+            <img src="_BusEireann_Double_Decker_PSO_2015.jpg" alt="Double decker" style= "width: 300px; height: 200px"/>
+            <img id="img3" src="2709_BusEireann_11.jpg" alt="Expressway coach" style="width: 300px; height: 200px"/>
+           </div>   
+               <!--imgs supplied by BE media dept.-->
+               
+            <div>
+            <div class="transbox">
+            <h1>Bus Eireann Local and Commuter Services</h1>
+            <table class="table">
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1425901973-100X.pdf" class="link button"> <b>100X</b> Dublin to Dundalk </a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1466432109-101N.pdf" class="link button"> <b>101N</b> Dublin to Drogheda <b>Nightrider</b> </a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1425902044-101X.pdf" class="link button"> <b>101X</b> Dublin-Drogheda-Termon Abbey </a></td>        
+    <td><a href="http://www.buseireann.ie/timetables/1425901999-101.pdf" class="link button"> <b>101</b> Dublin-Drogheda </a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1470225086-103.pdf" class="link button"> <b>103</b> Dublin-Ashbourne-Ratoath </a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1470225287-103X.pdf" class="link button"> <b>103X</b> Navan/Duleek-Ashbourne-Ratoath-Dublin</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1470226109-105.pdf" class="link button"> <b>105</b> Drogheda-Ashbourne-Ratoath-Blanch </a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1470226273-105X.pdf" class="link button"> <b>105X</b> Duleek-Ashbourne-Ratoath-Dublin</a></td>
+  </tr>  
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1425902128-108.pdf" class="link button"> <b>108</b> Dublin-Kells-Bailieboro</a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1425902151-109.pdf" class="link button"> <b>109</b> Dublin-Navan-Kells-Virginia-Cavan</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1466431582-109N.pdf" class="link button"> <b>109N</b> Dublin-Ratoath-Dunshaughlin-Navan <b>Nightrider</b></a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1425902219-111.pdf" class="link button"> <b>111</b> Dublin-Trim-Athboy-Granard</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1475749019-111X.pdf" class="link button"> <b>111X</b> Dublin-Athboy-Delvin-Clonmellon</a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1473438163-115.pdf" class="link button"> <b>115/115A</b> Dublin-Kilcock-Enfield-Mullingar</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1425902267-120.pdf" class="link button"> <b>120</b> Dublin-Clane-Prosperous-Edenderry-Tullamore</a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1425902310-123.pdf" class="link button"> <b>123</b> Dublin-Clane-Prosperous-Robertstown</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1425902329-124.pdf" class="link button"> <b>124</b> Dublin-Portloaise</a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1425902350-126.pdf" class="link button"> <b>126</b> Dublin-Kill-Naas-Newbridge-Kildare</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1466431338-126N.pdf" class="link button"> <b>126N</b> Dublin-Naas-Newbridge-Clane <b>Nightrider</b></a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1425902398-130.pdf" class="link button"> <b>130</b> Dublin-Kilcullen-Athy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1476353774-132.pdf" class="link button"> <b>132</b> Dublin-Tullow-Bunclody</a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1434022118-132Thu.pdf" class="link button"> <b>132</b> Dublin-Tullow-Bunclody <b><i>Thursday Only</i></b></a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.buseireann.ie/timetables/1439547719-133.pdf" class="link button"> <b>133</b> Dublin-Ashford-Wicklow</a></td>
+    <td><a href="http://www.buseireann.ie/timetables/1434551765-163.pdf" class="link button"> <b>163</b> Dublin-Drogheda-Donore</a></td>
+  </tr>
+</table>
+
+			   
+</div>			   
+</div>
+            
+            <div>
+            <div class="transbox">
+            <h1>Dublin Expressway Services</h1>
+            <table class="table">
+              <tr>   
+               <td><a href="http://www.buseireann.ie/timetables/1470224678-X1.pdf" class="link button"> <b>X1</b> Dublin-Newry-Belfast</a></td>
+			   <td><a href="http://www.buseireann.ie/timetables/1442220927-2.pdf" class="link button"> <b>2</b> Dublin-Arklow-Gorey-Enniscorthy-Wexford</a></td>
+			  </tr>
+			  <tr> 
+			   <td><a href="http://www.buseireann.ie/timetables/1475574620-4.pdf" class="link button"> <b>4</b> Dublin-Waterford</a></td>
+               <td><a href="http://www.buseireann.ie/timetables/1442312641-X7.pdf" class="link button"> <b>X7</b> Dublin-Kilkenny-Clonmel</a></td>
+			  </tr>
+			  <tr> 
+			   <td><a href="http://www.buseireann.ie/timetables/1473417408-X8.pdf" class="link button"> <b>X8</b> Dublin-Cork</a></td>
+			   <td><a href="http://www.buseireann.ie/timetables/1470227332-12X.pdf" class="link button"> <b>12X</b> Dublin-Limerick</a></td>
+              </tr>
+              <tr> 
+               <td><a href="http://www.buseireann.ie/timetables/1470227503-13.pdf" class="link button"> <b>13</b> Limerick-Tralee(Dublin connection from 12X)</a></td>
+               <td><a href="http://www.buseireann.ie/timetables/1466525435-14.pdf" class="link button"> <b>14</b> Limerick-Killarney(Dublin connection from 12X)</a></td>
+			  </tr>
+			  <tr> 
+			   <td><a href="http://www.buseireann.ie/timetables/1472638914-20.pdf" class="link button"> <b>20</b> Dublin-Athlone-Galway</a></td>
+			   <td><a href="http://www.buseireann.ie/timetables/1475574472-21.pdf" class="link button"> <b>21</b> Dublin-Westport</a></td>
+              </tr>
+              <tr> 
+               <td><a href="http://www.buseireann.ie/timetables/1470224203-22.pdf" class="link button"> <b>22</b> Dublin-Ballina</a></td>
+			   <td><a href="http://www.buseireann.ie/timetables/1478275542-23.pdf" class="link button"> <b>23</b> Dublin-Sligo</a></td>
+			  </tr>
+			  <tr> 
+			   <td><a href="http://www.buseireann.ie/timetables/1469801409-30.pdf" class="link button"> <b>30</b> Dublin-Donegal</a></td>
+               <td><a href="http://www.buseireann.ie/timetables/1478276752-32.pdf" class="link button"> <b>32</b> Dublin-Letterkenny</a></td>
+              </tr>
+              <tr>
+               <td><a href="http://www.buseireann.ie/timetables/1470909505-33.pdf" class="link button"> <b>33</b> Dublin-Derry</a></td>
+               <td> &nbsp; </td>
+              </tr>
+             </table> 
+           </div>
+           </div>
+           
+           <div style="text-align: center">
+              <img src="expfoot.png" alt="footer"/>
+           </div>   
+           
+           <!--All links to BE pdf timetables-->
+           
+
+           
+       </body>    
+</html>
